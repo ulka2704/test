@@ -1,0 +1,20 @@
+{
+  "repositories" : 
+  [
+    {
+      "type" : "package",
+      "package" : {
+        "name" : "sasha954/task",
+        "version" : "1.0",
+        "source" : {
+          "type"    : "git",
+          "url" : "https://github.com/sasha954/task",
+          "reference" : "master"
+        },
+        "autoload" : {
+          "files" : ["index.php"]
+        }
+      }
+    }
+  ]
+}

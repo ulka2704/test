@@ -1,0 +1,43 @@
+html
+{
+	overflow: hidden;
+}
+
+body
+{
+	background-color: #333333;
+}
+
+div
+{
+	width: 500px;
+	height: 500px;
+}
+
+#square
+{
+	width: 400px;
+	height: 400px;
+	background: aqua;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 4px inset gold;
+	border-radius: 5px;
+	transition: 1s;
+	transition-timing-function: linear;
+	cursor: pointer;
+}
+
+#inf
+{
+	font-family: 'Lobster', cursive;
+	font-size: 27px;
+	color: gold;
+	margin-left: 415px;
+	margin-right: auto;
+	text-align: center;
+	cursor: default;
+	text-shadow: 0.5px 0.5px 0.5px aqua;
+}
